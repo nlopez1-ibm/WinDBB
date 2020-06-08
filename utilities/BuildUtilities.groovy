@@ -17,6 +17,8 @@ import groovy.json.JsonSlurper
  * assertBuildProperties - verify that required build properties for a script exist
  */
 def assertBuildProperties(String requiredProps) {
+	
+	println "TRACE BU PP=$props.verbose"
 	if (props.verbose) println "required props = $requiredProps"
 	if (requiredProps) {
 		String[] buildProps = requiredProps.split(',')
