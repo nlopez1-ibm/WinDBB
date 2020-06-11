@@ -1,4 +1,7 @@
-# zAppBuild (personal copy for all new build (njl 6/1/20)
+# zAppBuild (personal copy DBB on Windows (njl 6/1/20)
+under review 
+
+---
 zAppBuild is a generic build solution for building z/OS applications using Apache Groovy build scripts and IBM Dependency Based Build (DBB) APIs.
 
 ## Resources

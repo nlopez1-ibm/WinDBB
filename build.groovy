@@ -364,6 +364,7 @@ def createBuildList() {
 	Set<String> buildSet = new HashSet<String>()
 	String action = (props.scanOnly) ? 'Scanning' : 'Building'
 
+
 	// check if full build
 	if (props.fullBuild) {
 		println "** --fullBuild option selected. $action all programs for application ${props.application}"
